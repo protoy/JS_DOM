@@ -25,7 +25,19 @@ img{
     display: block;
     clear: both;
 }
-
+#imagegallery{
+    list-style: none;
+}
+#imagegallery li{
+    display: inline;
+    padding: 10px;
+}
+#imagegalelry li a img {
+    border: 0;
+}
 #placeholder{
     height: 450px;
+}
+.thumbnail{
+    width: 100px;
 }
