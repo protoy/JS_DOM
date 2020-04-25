@@ -1,1 +1,3 @@
 <script>标签1.引入外部文件、2.直接在标签内写脚本，同时在body内部时和1、2先后位置无关，先渲染外部文件，hello world一直在inserted前面。inserted部分放在head内时，先渲染inserted
+createTextNode是document的方法
+XMLHttpRequest不允许file://
